@@ -15,8 +15,9 @@ Here's the code as specified in the plugin's `liferay-look-and-feel.xml` file:
         <color-scheme id="01" name="Default">
             <default-cs>true</default-cs>
             <css-class>default</css-class>
-        <color-scheme-images-path>${images-path}/color_schemes/${css-class}
-        </color-scheme-images-path>
+            <color-scheme-images-path>
+	        ${images-path}/color_schemes/${css-class}
+            </color-scheme-images-path>
 	</color-scheme>
         <color-scheme id="02" name="Day">
             <css-class>day</css-class>
